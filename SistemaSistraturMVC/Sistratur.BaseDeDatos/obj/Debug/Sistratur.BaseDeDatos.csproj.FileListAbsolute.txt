@@ -1,0 +1,5 @@
+C:\Users\Alexander Raúl\Documents\GitHub\ProjectsTwoDocs\SistemaSistraturMVC\Sistratur.BaseDeDatos\bin\Debug\Sistratur.BaseDeDatos.dll
+C:\Users\Alexander Raúl\Documents\GitHub\ProjectsTwoDocs\SistemaSistraturMVC\Sistratur.BaseDeDatos\bin\Debug\Sistratur.BaseDeDatos.pdb
+C:\Users\Alexander Raúl\Documents\GitHub\ProjectsTwoDocs\SistemaSistraturMVC\Sistratur.BaseDeDatos\obj\Debug\Sistratur.BaseDeDatos.csprojResolveAssemblyReference.cache
+C:\Users\Alexander Raúl\Documents\GitHub\ProjectsTwoDocs\SistemaSistraturMVC\Sistratur.BaseDeDatos\obj\Debug\Sistratur.BaseDeDatos.dll
+C:\Users\Alexander Raúl\Documents\GitHub\ProjectsTwoDocs\SistemaSistraturMVC\Sistratur.BaseDeDatos\obj\Debug\Sistratur.BaseDeDatos.pdb

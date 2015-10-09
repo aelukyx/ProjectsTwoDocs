@@ -1,0 +1,4 @@
+C:\Users\Alexander Raúl\Documents\GitHub\ProjectsTwoDocs\SistemaSistraturMVC\Sistratur.TestsDeSistema\bin\Debug\Sistratur.TestsDeSistema.dll
+C:\Users\Alexander Raúl\Documents\GitHub\ProjectsTwoDocs\SistemaSistraturMVC\Sistratur.TestsDeSistema\bin\Debug\Sistratur.TestsDeSistema.pdb
+C:\Users\Alexander Raúl\Documents\GitHub\ProjectsTwoDocs\SistemaSistraturMVC\Sistratur.TestsDeSistema\obj\Debug\Sistratur.TestsDeSistema.dll
+C:\Users\Alexander Raúl\Documents\GitHub\ProjectsTwoDocs\SistemaSistraturMVC\Sistratur.TestsDeSistema\obj\Debug\Sistratur.TestsDeSistema.pdb
