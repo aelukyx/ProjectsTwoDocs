@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistratur.Servicios", "Sist
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistratur.TestsDeSistema", "Sistratur.TestsDeSistema\Sistratur.TestsDeSistema.csproj", "{E4A00169-5180-4C7B-BC96-8157A30ADF7B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistratur.WebApp", "Sistratur.WebApp\Sistratur.WebApp.csproj", "{8E0B9E32-BDDB-4743-834D-E4FE6DA7158B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{E4A00169-5180-4C7B-BC96-8157A30ADF7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4A00169-5180-4C7B-BC96-8157A30ADF7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4A00169-5180-4C7B-BC96-8157A30ADF7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E0B9E32-BDDB-4743-834D-E4FE6DA7158B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E0B9E32-BDDB-4743-834D-E4FE6DA7158B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E0B9E32-BDDB-4743-834D-E4FE6DA7158B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E0B9E32-BDDB-4743-834D-E4FE6DA7158B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
