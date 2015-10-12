@@ -1,0 +1,66 @@
+﻿
+@{
+    Layout = null;
+}
+
+@*<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>_building</title>
+</head>
+<body>
+    <div> 
+    </div>
+</body>
+</html>*@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SISTRATUR</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/style.css?v1" />
+    <script src="~/Scripts/jquery.min.js"></script>
+    <script src="~/Scripts/jquery.countdown.min.js"></script>
+    <script src="~/Scripts/jqIsoText.min.js"></script>
+
+    <script type="text/javascript">
+
+    $(function() {
+        //Efecto para la letra
+        $(".elem").jqIsoText({ fromSize: 30, toSize: 70, split: 'yes' });
+        //===================================
+        //Dia D: anio , mes, dia
+        var dayD = new Date(2015,12-1, 15-1);
+        $("#countdown").countdown({until: dayD, format: "odHMS"});
+        //===================================
+    });
+    </script>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="contentliquid">
+            <section id="header">
+                <p><b><< Sección en Construcción >></b></p>
+            </section>
+            <!-- contenido -->
+            <div id="content">
+                <section class="logo"></section>
+                <section class="elem">SISTRATUR</section>
+                <section id="countdown"></section>
+            </div>
+            <!-- contenido:end -->
+        </div>
+
+    </div>
+
+    <section id="footer">
+        <p>&copy; 2015 <a href="#">SisTraTur - Cajamarca</a>. Todos los Derechos Reservados.</p>
+    </section>
+
+</body>
+</html>

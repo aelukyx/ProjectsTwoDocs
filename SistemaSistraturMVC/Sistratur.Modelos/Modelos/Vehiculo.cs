@@ -4,7 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sistratur.Models.Models
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+
+namespace Sistratur.Modelos.Modelos
 {
     public class Vehiculo
     {
@@ -14,27 +18,63 @@ namespace Sistratur.Models.Models
         }
 
         public int Id { get; set; }
+
+        [Required]
+        [MaxLength(10)]
+        [Index("NroPlacaUnique", IsUnique = true)]
         public String Placa { get; set; }
-        public Decimal Kilometraje { get; set; }
+
+        [Display(Name = "Año Modelo")]
         public int AnioModelo  { get; set; }
-        public int AnioFabricación { get; set; }
+
+        [Display(Name = "Año Fabricacion")]
+        public int AnioFabricacion { get; set; }
         public int Ejes { get; set; }
         public int Ruedas { get; set; }
-        public String Categoria { get; set; }
-        public DateTime FechaRegistro { get; set; }
-        public String FormulaRodante { get; set; }
-        public String Potencia { get; set; }
-        public String Carroceria { get; set; }
-        public Double Alto { get; set; }
-        public Double Ancho { get; set; }
-        public Double Longitud { get; set; }
+
+        [Display(Name = "Nro. Asientos")]
         public int NroAsientos { get; set; }
+
+        [Display(Name = "Nro. Pasajeros")]
         public int NroPasajeros { get; set; }
-        public Double Cilindros { get; set; }
-        public Double Cilindrada { get; set; }
-        public Double CargaUtil { get; set; }
-        public Double PesoBruto { get; set; }
-        public Double PesoNeto { get; set; }
+
+        [Required]
+        [DataType(DataType.Date)]
+        [Display(Name = "Fecha de Registro")]
+        public DateTime FechaRegistro { get; set; }
+
+        [Required]
+        [MaxLength(20)]
+        public String Categoria { get; set; }
+
+        [Required]
+        [MaxLength(20)]
+        [Display(Name = "Fórmula Rodante")]
+        public String FormulaRodante { get; set; }
+
+        [Required]
+        [MaxLength(20)]
+        public String Potencia { get; set; }
+
+        [Required]
+        [MaxLength(50)]
+        public String Carroceria { get; set; }
+
+        public Decimal Kilometraje { get; set; }
+        public Decimal Alto { get; set; }
+        public Decimal Ancho { get; set; }
+        public Decimal Longitud { get; set; }
+        public Decimal Cilindros { get; set; }
+        public Decimal Cilindrada { get; set; }
+
+        [Display(Name = "Carga Util")]
+        public Decimal CargaUtil { get; set; }
+
+        [Display(Name = "Carga Bruto")]
+        public Decimal PesoBruto { get; set; }
+
+        [Display(Name = "Peso Neto")]
+        public Decimal PesoNeto { get; set; }
 
         public int? CombustibleId { get; set; }
         public virtual Combustible Combustible { get; set; }

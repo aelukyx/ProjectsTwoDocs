@@ -4,29 +4,51 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sistratur.Models.Models
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Sistratur.Modelos.Modelos
 {
     public class Alquiler
     {
         public int Id { get; set; }
 
-        public int FechaServicioDia { get; set; }
-        public int FechaServicioMes { get; set; }
-        public int FechaServicioAnio { get; set; }
+        [Required]
+        [DataType(DataType.Date)]
+        [Display(Name = "Fecha de Registro")]
+        public DateTime FechaRegistro { get; set; }
+        
+        [StringLength(15)]
+        [Display(Name = "Hora de Registro")]
+        public String HoraRegistro { get; set; }
 
-        public String HoraServicio { get; set; }
-
+        [StringLength(150)]
+        [Display(Name = "Lugar de Referencia")]
         public String LugarReferencia { get; set; }
 
+        [Required]
+        [Display(Name = "Número de Dias")]
         public int NroDias { get; set; }
 
+        [Required]
+        [Display(Name = "Monto/Día")]
         public Decimal Montodia { get; set; }
 
+        [Required]
+        [Display(Name = "Monto Total")]
         public Decimal MontoTotal { get; set; }
 
+        [StringLength(250)]
         public String Observaciones { get; set; }
 
+        [Required]
+        [StringLength(15)]
+        [Display(Name = "Fecha Inicio")]
         public String FechaInicio { get; set; }
+
+        [Required]
+        [StringLength(15)]
+        [Display(Name = "Fecha Fin")]
         public String FechaFin { get; set; }
 
         public int? VehiculoId { get; set; }

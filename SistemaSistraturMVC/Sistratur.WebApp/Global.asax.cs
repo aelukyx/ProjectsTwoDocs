@@ -16,6 +16,11 @@ namespace Sistratur.WebApp
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+
+            //Inicializar Bootstrapper
+            Bootstrapper.Initialise();
+            //
+
         }
     }
 }

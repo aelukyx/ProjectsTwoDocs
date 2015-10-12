@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sistratur.Models.Models
+namespace Sistratur.Modelos.Modelos
 {
     public class PerfilUsuario
     {

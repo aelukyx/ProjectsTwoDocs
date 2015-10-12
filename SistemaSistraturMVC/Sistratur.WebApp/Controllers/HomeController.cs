@@ -26,5 +26,10 @@ namespace Sistratur.WebApp.Controllers
 
             return View();
         }
+
+        public ActionResult Building()
+        {
+            return View();
+        }
     }
 }

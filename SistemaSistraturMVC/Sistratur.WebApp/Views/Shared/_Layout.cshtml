@@ -8,6 +8,10 @@
     @*Icono de la Página Web*@    
     <link href="~/icon-navi.ico" rel="shortcut icon" type="image/x-icon" />
     @Styles.Render("~/Content/css")
+    <link href="@Url.Content("~/Content/bootstrap-blue-theme.min.css")" rel="stylesheet">
+    <link href="@Url.Content("~/Content/bootstrap-select.css")" rel="stylesheet">
+    <link href="@Url.Content("~/Content/calendar.css")" rel="stylesheet">
+    <link href="@Url.Content("~/Content/bootstrap-formhelpers.min.css")" rel="stylesheet">
     @Scripts.Render("~/bundles/modernizr")
 
 </head>
@@ -29,66 +33,63 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Clientes <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
                                 <li>@Html.ActionLink("Listar Clientes", "Index", "Cliente")</li>
-                                <li>@Html.ActionLink("Agregar Cliente", "Create", "Cliente")</li>
-                                <li>@Html.ActionLink("Editar Cliente", "Edit", "Cliente")</li>
-                                <li>@Html.ActionLink("Eliminar Cliente", "Delete", "Cliente")</li>
+                                <li>@Html.ActionLink("Registrar Cliente", "Create", "Cliente")</li>
+                                <li>@Html.ActionLink("Editar Cliente", "Building", "Home")</li>
+                                <li>@Html.ActionLink("Eliminar Cliente", "Building", "Home")</li>
                             <li class="divider"></li>
-                                <li>@Html.ActionLink("Buscar Cliente", "Search", "Cliente")</li>
+                                <li>@Html.ActionLink("Buscar Cliente", "Building", "Home")</li>
                         </ul>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Alquiler <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li>@Html.ActionLink("Listar Clientes", "Index", "Cliente")</li>
-                            <li>@Html.ActionLink("Agregar Cliente", "Create", "Cliente")</li>
-                            <li>@Html.ActionLink("Editar Cliente", "Edit", "Cliente")</li>
-                            <li>@Html.ActionLink("Eliminar Cliente", "Delete", "Cliente")</li>
+                            <li>@Html.ActionLink("Listar Alquileres", "Index", "Alquiler")</li>
+                            <li>@Html.ActionLink("Registrar Alquiler", "Create", "Alquiler")</li>
+                            <li>@Html.ActionLink("Editar Alquiler", "Building", "Home")</li>
+                            <li>@Html.ActionLink("Eliminar Alquiler", "Building", "Home")</li>
                             <li class="divider"></li>
-                            <li>@Html.ActionLink("Buscar Cliente", "Search", "Cliente")</li>
+                            <li>@Html.ActionLink("Buscar Alquiler", "Building", "Home")</li>
                         </ul>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Vehículos <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li>@Html.ActionLink("Listar Clientes", "Index", "Cliente")</li>
-                            <li>@Html.ActionLink("Agregar Cliente", "Create", "Cliente")</li>
-                            <li>@Html.ActionLink("Editar Cliente", "Edit", "Cliente")</li>
-                            <li>@Html.ActionLink("Eliminar Cliente", "Delete", "Cliente")</li>
+                            <li>@Html.ActionLink("Listar Vehículos", "Index", "Vehiculo")</li>
+                            <li>@Html.ActionLink("Registrar Vehículo", "Create", "Vehiculo")</li>
+                            <li>@Html.ActionLink("Editar Vehículos", "Building", "Home")</li>
+                            <li>@Html.ActionLink("Eliminar Vehículo", "Building", "Home")</li>
                             <li class="divider"></li>
-                            <li>@Html.ActionLink("Buscar Cliente", "Search", "Cliente")</li>
+                            <li>@Html.ActionLink("Buscar Vehículo", "Building", "Home")</li>
                         </ul>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Artículos <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li>@Html.ActionLink("Listar Clientes", "Index", "Cliente")</li>
-                            <li>@Html.ActionLink("Agregar Cliente", "Create", "Cliente")</li>
-                            <li>@Html.ActionLink("Editar Cliente", "Edit", "Cliente")</li>
-                            <li>@Html.ActionLink("Eliminar Cliente", "Delete", "Cliente")</li>
+                            <li>@Html.ActionLink("Listar Artículos", "Building", "Home")</li>
+                            <li>@Html.ActionLink("Registrar Artículo", "Building", "Home")</li>
+                            <li>@Html.ActionLink("Editar Artículo", "Building", "Home")</li>
+                            <li>@Html.ActionLink("Eliminar Artículo", "Building", "Home")</li>
                             <li class="divider"></li>
-                            <li>@Html.ActionLink("Buscar Cliente", "Search", "Cliente")</li>
+                            <li>@Html.ActionLink("Buscar Artículo", "Building", "Home")</li>
                         </ul>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Proveedores <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li>@Html.ActionLink("Listar Clientes", "Index", "Cliente")</li>
-                            <li>@Html.ActionLink("Agregar Cliente", "Create", "Cliente")</li>
-                            <li>@Html.ActionLink("Editar Cliente", "Edit", "Cliente")</li>
-                            <li>@Html.ActionLink("Eliminar Cliente", "Delete", "Cliente")</li>
+                            <li>@Html.ActionLink("Listar Proveedores", "Index", "Proveedor")</li>
+                            <li>@Html.ActionLink("Registrar Proveedor", "Create", "Proveedor")</li>
+                            <li>@Html.ActionLink("Editar Proveedor", "Building", "Home")</li>
+                            <li>@Html.ActionLink("Eliminar Proveedor", "Building", "Home")</li>
                             <li class="divider"></li>
-                            <li>@Html.ActionLink("Buscar Cliente", "Search", "Cliente")</li>
+                            <li>@Html.ActionLink("Buscar Proveedor", "Building", "Home")</li>
                         </ul>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Administración <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li>@Html.ActionLink("Listar Clientes", "Index", "Cliente")</li>
-                            <li>@Html.ActionLink("Agregar Cliente", "Create", "Cliente")</li>
-                            <li>@Html.ActionLink("Editar Cliente", "Edit", "Cliente")</li>
-                            <li>@Html.ActionLink("Eliminar Cliente", "Delete", "Cliente")</li>
+                            <li>@Html.ActionLink("Tipos de Combustibles", "Building", "Home")</li>
                             <li class="divider"></li>
-                            <li>@Html.ActionLink("Buscar Cliente", "Search", "Cliente")</li>
+                            <li>@Html.ActionLink("Colores de Vehículos", "Building", "Home")</li>
                         </ul>
                     </li>
                     @*<li>@Html.ActionLink("Acerca de", "About", "Home")</li>*@
@@ -107,6 +108,12 @@
     </div>
 
     @Scripts.Render("~/bundles/jquery")
+    @*<script src="@Url.Content("~/Scripts/jquery-1.11.1.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/bootstrap.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/bootstrap-select.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/jquery-1.10.2.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/jquery-ui.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/bootstrap-formhelpers.js")" type="text/javascript"></script>*@
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
 </body>
