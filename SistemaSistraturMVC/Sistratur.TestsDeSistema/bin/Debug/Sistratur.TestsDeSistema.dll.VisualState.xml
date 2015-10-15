@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1020]C:\Users\Alexander Raúl\Desktop\ProjectsTwoDocs\SistemaSistraturMVC\Sistratur.TestsDeSistema\bin\Debug\Sistratur.TestsDeSistema.dll</TopNode>
+  <SelectedNode>[0-1020]C:\Users\Alexander Raúl\Desktop\ProjectsTwoDocs\SistemaSistraturMVC\Sistratur.TestsDeSistema\bin\Debug\Sistratur.TestsDeSistema.dll</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1020]C:\Users\Alexander Raúl\Desktop\ProjectsTwoDocs\SistemaSistraturMVC\Sistratur.TestsDeSistema\bin\Debug\Sistratur.TestsDeSistema.dll" Expanded="true" />
+    <Node UniqueName="[0-1021]Sistratur" Expanded="true" />
+    <Node UniqueName="[0-1022]Sistratur.TestsDeSistema" Expanded="true" />
+    <Node UniqueName="[0-1025]Sistratur.TestsDeSistema.Controladores" Expanded="true" />
+    <Node UniqueName="[0-1024]Sistratur.TestsDeSistema.Modelos" Expanded="true" />
+    <Node UniqueName="[0-1023]Sistratur.TestsDeSistema.Servicios" Expanded="true" />
+    <Node UniqueName="[0-1000]Sistratur.TestsDeSistema.Servicios.ClienteServicioTest" Expanded="true" />
+  </Nodes>
+</VisualState>
