@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\Alexander Raúl\Desktop\ProjectsTwoDocs\ProjectsTwoDocs\SistemaSistraturMVC\Sistratur.Testing\bin\Debug\Sistratur.Testing.dll" total="51" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-11-02" time="16:52:02">
+  <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.8669" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.4\bin" machine-name="DESKTOP-Q2S5G7S" user="Alexander Raúl" user-domain="DESKTOP-Q2S5G7S" />
+  <culture-info current-culture="es-PE" current-uiculture="es-ES" />
+  <test-suite type="Assembly" name="C:\Users\Alexander Raúl\Desktop\ProjectsTwoDocs\ProjectsTwoDocs\SistemaSistraturMVC\Sistratur.Testing\bin\Debug\Sistratur.Testing.dll" executed="True" result="Success" success="True" time="13.964" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="Sistratur" executed="True" result="Success" success="True" time="13.953" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Testing" executed="True" result="Success" success="True" time="13.953" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Alquileres" executed="True" result="Success" success="True" time="3.757" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="TestAlquilerControlador" executed="True" result="Success" success="True" time="2.023" asserts="0">
+                    <results>
+                      <test-case name="Sistratur.Testing.Alquileres.TestAlquilerControlador._01_Vista_Index_Ok" executed="True" result="Success" success="True" time="1.899" asserts="2" />
+                      <test-case name="Sistratur.Testing.Alquileres.TestAlquilerControlador._02_Vista_Create_Ok" executed="True" result="Success" success="True" time="0.018" asserts="3" />
+                      <test-case name="Sistratur.Testing.Alquileres.TestAlquilerControlador._03_Vista_Edit_Ok" executed="True" result="Success" success="True" time="0.011" asserts="3" />
+                      <test-case name="Sistratur.Testing.Alquileres.TestAlquilerControlador._04_Vista_Details_Ok" executed="True" result="Success" success="True" time="0.006" asserts="3" />
+                      <test-case name="Sistratur.Testing.Alquileres.TestAlquilerControlador._05_Vista_Delete_Ok" executed="True" result="Success" success="True" time="0.006" asserts="1" />
+                      <test-case name="Sistratur.Testing.Alquileres.TestAlquilerControlador._06_Crear_Alquiler_Correctamente" executed="True" result="Success" success="True" time="0.011" asserts="2" />
+                      <test-case name="Sistratur.Testing.Alquileres.TestAlquilerControlador._07_Editar_Alquiler_Correctamente" executed="True" result="Success" success="True" time="0.004" asserts="2" />
+                      <test-case name="Sistratur.Testing.Alquileres.TestAlquilerControlador._08_Detallar_Alquiler_Correctamente" executed="True" result="Success" success="True" time="0.005" asserts="4" />
+                      <test-case name="Sistratur.Testing.Alquileres.TestAlquilerControlador._09_Eliminar_Alquiler_Correctamente" executed="True" result="Success" success="True" time="0.006" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="TestAlquilerModelo" executed="True" result="Success" success="True" time="0.113" asserts="0">
+                    <results>
+                      <test-case name="Sistratur.Testing.Alquileres.TestAlquilerModelo._01_Alquiler_Valido_Minimo_Requerimientos" executed="True" result="Success" success="True" time="0.083" asserts="3" />
+                      <test-case name="Sistratur.Testing.Alquileres.TestAlquilerModelo._02_Alquiler_Invalido_Fallo_HoraRegistro_Mas_de_15_Caract" executed="True" result="Success" success="True" time="0.017" asserts="3" />
+                      <test-case name="Sistratur.Testing.Alquileres.TestAlquilerModelo._03_Alquiler_Invalido_Fallo_LugarReferencia_Mas_de_15_Caract" executed="True" result="Success" success="True" time="0.004" asserts="3" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="TestAlquilerServicio" executed="True" result="Success" success="True" time="1.605" asserts="0">
+                    <results>
+                      <test-case name="Sistratur.Testing.Alquileres.TestAlquilerServicio._01_Retornar_Lista_Alquilers" executed="True" result="Success" success="True" time="1.573" asserts="2" />
+                      <test-case name="Sistratur.Testing.Alquileres.TestAlquilerServicio._02_Retornar_Alquiler_Por_Id" executed="True" result="Success" success="True" time="0.017" asserts="2" />
+                      <test-case name="Sistratur.Testing.Alquileres.TestAlquilerServicio._03_Registrar_Nuevo_Alquiler" executed="True" result="Success" success="True" time="0.005" asserts="0" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite type="Namespace" name="Clientes" executed="True" result="Success" success="True" time="9.890" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="TestClienteControlador" executed="True" result="Success" success="True" time="9.725" asserts="0">
+                    <results>
+                      <test-case name="Sistratur.Testing.Clientes.TestClienteControlador._01_Vista_Index_Ok" executed="True" result="Success" success="True" time="0.016" asserts="2" />
+                      <test-case name="Sistratur.Testing.Clientes.TestClienteControlador._02_Vista_Create_Ok" executed="True" result="Success" success="True" time="0.001" asserts="3" />
+                      <test-case name="Sistratur.Testing.Clientes.TestClienteControlador._03_Vista_Edit_Ok" executed="True" result="Success" success="True" time="0.006" asserts="3" />
+                      <test-case name="Sistratur.Testing.Clientes.TestClienteControlador._04_Vista_Details_Ok" executed="True" result="Success" success="True" time="0.003" asserts="3" />
+                      <test-case name="Sistratur.Testing.Clientes.TestClienteControlador._05_Vista_Delete_Ok" executed="True" result="Success" success="True" time="0.003" asserts="1" />
+                      <test-case name="Sistratur.Testing.Clientes.TestClienteControlador._06_Crear_Cliente_Correctamente" executed="True" result="Success" success="True" time="9.654" asserts="2" />
+                      <test-case name="Sistratur.Testing.Clientes.TestClienteControlador._07_Editar_Cliente_Correctamente" executed="True" result="Success" success="True" time="0.002" asserts="2" />
+                      <test-case name="Sistratur.Testing.Clientes.TestClienteControlador._08_Detallar_Cliente_Correctamente" executed="True" result="Success" success="True" time="0.003" asserts="4" />
+                      <test-case name="Sistratur.Testing.Clientes.TestClienteControlador._09_Eliminar_Cliente_Correctamente" executed="True" result="Success" success="True" time="0.004" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="TestClienteModelo" executed="True" result="Success" success="True" time="0.093" asserts="0">
+                    <results>
+                      <test-case name="Sistratur.Testing.Clientes.TestClienteModelo._01_Ciente_Valido_Minimo_Requerimientos" executed="True" result="Success" success="True" time="0.041" asserts="3" />
+                      <test-case name="Sistratur.Testing.Clientes.TestClienteModelo._02_Cliente_Invalido_Fallo_Formato_Email" executed="True" result="Success" success="True" time="0.002" asserts="3" />
+                      <test-case name="Sistratur.Testing.Clientes.TestClienteModelo._03_Cliente_Invalido_Fallo_Formato_Celular" executed="True" result="Success" success="True" time="0.001" asserts="3" />
+                      <test-case name="Sistratur.Testing.Clientes.TestClienteModelo._04_Cliente_Invalido_Fallo_Formato_Telefono" executed="True" result="Success" success="True" time="0.001" asserts="3" />
+                      <test-case name="Sistratur.Testing.Clientes.TestClienteModelo._05_Cliente_Invalido_Fallo_Null_NroDocumento" executed="True" result="Success" success="True" time="0.001" asserts="3" />
+                      <test-case name="Sistratur.Testing.Clientes.TestClienteModelo._06_Cliente_Invalido_Fallo_Null_NombresRazonSocial" executed="True" result="Success" success="True" time="0.001" asserts="3" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="TestClienteServicio" executed="True" result="Success" success="True" time="0.060" asserts="0">
+                    <results>
+                      <test-case name="Sistratur.Testing.Clientes.TestClienteServicio._01_Retornar_Lista_Clientes" executed="True" result="Success" success="True" time="0.036" asserts="2" />
+                      <test-case name="Sistratur.Testing.Clientes.TestClienteServicio._02_Retornar_Cliente_Por_Id" executed="True" result="Success" success="True" time="0.007" asserts="2" />
+                      <test-case name="Sistratur.Testing.Clientes.TestClienteServicio._03_Registrar_Nuevo_Cliente" executed="True" result="Success" success="True" time="0.005" asserts="0" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite type="Namespace" name="Proveedores" executed="True" result="Success" success="True" time="0.285" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="TestProveedorControlador" executed="True" result="Success" success="True" time="0.192" asserts="0">
+                    <results>
+                      <test-case name="Sistratur.Testing.Proveedores.TestProveedorControlador._01_Vista_Index_Ok" executed="True" result="Success" success="True" time="0.017" asserts="2" />
+                      <test-case name="Sistratur.Testing.Proveedores.TestProveedorControlador._02_Vista_Create_Ok" executed="True" result="Success" success="True" time="0.001" asserts="3" />
+                      <test-case name="Sistratur.Testing.Proveedores.TestProveedorControlador._03_Vista_Edit_Ok" executed="True" result="Success" success="True" time="0.006" asserts="3" />
+                      <test-case name="Sistratur.Testing.Proveedores.TestProveedorControlador._04_Vista_Details_Ok" executed="True" result="Success" success="True" time="0.003" asserts="3" />
+                      <test-case name="Sistratur.Testing.Proveedores.TestProveedorControlador._05_Vista_Delete_Ok" executed="True" result="Success" success="True" time="0.003" asserts="1" />
+                      <test-case name="Sistratur.Testing.Proveedores.TestProveedorControlador._06_Crear_Proveedor_Correctamente" executed="True" result="Success" success="True" time="0.046" asserts="2" />
+                      <test-case name="Sistratur.Testing.Proveedores.TestProveedorControlador._07_Editar_Proveedor_Correctamente" executed="True" result="Success" success="True" time="0.081" asserts="1" />
+                      <test-case name="Sistratur.Testing.Proveedores.TestProveedorControlador._08_Detallar_Proveedor_Correctamente" executed="True" result="Success" success="True" time="0.002" asserts="4" />
+                      <test-case name="Sistratur.Testing.Proveedores.TestProveedorControlador._09_Eliminar_Proveedor_Correctamente" executed="True" result="Success" success="True" time="0.003" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="TestProveedorModelo" executed="True" result="Success" success="True" time="0.030" asserts="0">
+                    <results>
+                      <test-case name="Sistratur.Testing.Proveedores.TestProveedorModelo._01_Proveedor_Valido_Minimo_Requerimientos" executed="True" result="Success" success="True" time="0.004" asserts="3" />
+                      <test-case name="Sistratur.Testing.Proveedores.TestProveedorModelo._02_Proveedor_Invalido_Fallo_Formato_Email" executed="True" result="Success" success="True" time="0.001" asserts="3" />
+                      <test-case name="Sistratur.Testing.Proveedores.TestProveedorModelo._03_Proveedor_Invalido_Fallo_Formato_Celular" executed="True" result="Success" success="True" time="0.001" asserts="3" />
+                      <test-case name="Sistratur.Testing.Proveedores.TestProveedorModelo._04_Proveedor_Invalido_Fallo_Formato_Telefono" executed="True" result="Success" success="True" time="0.001" asserts="3" />
+                      <test-case name="Sistratur.Testing.Proveedores.TestProveedorModelo._05_Proveedor_Invalido_Fallo_Null_Ruc" executed="True" result="Success" success="True" time="0.001" asserts="3" />
+                      <test-case name="Sistratur.Testing.Proveedores.TestProveedorModelo._06_Proveedor_Invalido_Fallo_Null_RazonSocial" executed="True" result="Success" success="True" time="0.001" asserts="3" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="TestProveedorServicio" executed="True" result="Success" success="True" time="0.054" asserts="0">
+                    <results>
+                      <test-case name="Sistratur.Testing.Proveedores.TestProveedorServicio._01_Retornar_Lista_Proveedors" executed="True" result="Success" success="True" time="0.033" asserts="2" />
+                      <test-case name="Sistratur.Testing.Proveedores.TestProveedorServicio._02_Retornar_Proveedor_Por_Id" executed="True" result="Success" success="True" time="0.009" asserts="2" />
+                      <test-case name="Sistratur.Testing.Proveedores.TestProveedorServicio._03_Registrar_Nuevo_Proveedor" executed="True" result="Success" success="True" time="0.004" asserts="0" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
